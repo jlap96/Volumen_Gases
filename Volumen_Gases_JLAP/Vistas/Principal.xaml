@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Volumen_Gases_JLAP.Principal"
+             NavigationPage.HasNavigationBar="False">
+    <StackLayout BackgroundColor="#FEE6B9">
+        <Label Text="Calculador de volumen"
+               FontSize="30"
+               FontAttributes="Bold"
+               Margin="0,20,0,0"
+               HorizontalOptions="Center"/>
+        <Frame VerticalOptions="FillAndExpand"
+               Margin="20"
+               CornerRadius="20"
+               HasShadow="False">
+            <StackLayout VerticalOptions="Center"
+                         Spacing="10">
+                <Image Source="https://cdn.slidesharecdn.com/ss_thumbnails/paraslideleyesdelosgases-120913185814-phpapp01-thumbnail.jpg"/>
+                <Button Text="Calcular"
+                        TextTransform="None"
+                        BackgroundColor="#FDE080"
+                        FontSize="Medium"
+                        FontAttributes="Bold"
+                        CornerRadius="10"
+                        x:Name="btniniciar"
+                        Clicked="btniniciar_Clicked"/>
+                <Label Text="Autor: Juana Liliana Aguilar Peñaloza"/>
+                <Label Text="Docente: Verónica Espinoza Romo"/>
+                <Label Text="Grupo: 002"/>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+
+</ContentPage>
